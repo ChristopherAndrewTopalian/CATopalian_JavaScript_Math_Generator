@@ -1,0 +1,87 @@
+/* style001.css */
+
+body
+{
+    background-color: rgb(40, 40, 40);
+    font-family: arial;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+input
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(30, 30, 30);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+input::placeholder
+{
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+    text-align: center;
+}
+
+hr
+{
+    width: 100%;
+}
+
+.mainDiv
+{
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.theTitle
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+    font-family: arial;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.buttonStyle001
+{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    font-family: arial;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.buttonStyle001:hover
+{
+    border-color: rgb(0, 255, 255);
+    color: rgb(0, 255, 255);
+}
+
+.buttonStyle001:active
+{
+    color: rgb(255, 0, 255);
+}
+
+/* ---- */
+
+/* Dedicated to God the Father */
+/* All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025 */
+/* https://github.com/ChristopherTopalian */
+/* https://github.com/ChristopherAndrewTopalian */
+/* https://sites.google.com/view/CollegeOfScripting */
+
