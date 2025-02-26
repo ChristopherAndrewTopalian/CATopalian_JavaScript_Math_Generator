@@ -9,7 +9,8 @@ function makeMathGenerator()
     // mainDiv
     let mainDiv = ce('div');
     mainDiv.id = 'mainDiv';
-    mainDiv.className = 'mainDiv';    mainDiv.style.marginLeft = '10px';
+    mainDiv.className = 'mainDiv';
+    mainDiv.style.marginLeft = '10px';
     ge('layout').append(mainDiv);
 
     //-//
