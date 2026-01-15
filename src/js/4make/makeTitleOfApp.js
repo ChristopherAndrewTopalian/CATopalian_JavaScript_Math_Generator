@@ -2,15 +2,6 @@
 
 function makeTitleOfApp()
 {
-    let mainDiv = ce('div');
-    mainDiv.style.position = 'absolute';
-    mainDiv.style.right = '10px';
-    mainDiv.style.bottom = '2px';
-    mainDiv.style.zIndex = 1;
-    ba(mainDiv);
-
-    //-//
-
     let titleOfApp = ce('a');
     titleOfApp.id = 'titleOfApp';
     titleOfApp.textContent = 'CATopalian JavaScript Math Generator';
@@ -19,8 +10,8 @@ function makeTitleOfApp()
     titleOfApp.style.fontSize = '17px';
     titleOfApp.style.fontWeight = 'bold';
     titleOfApp.style.textDecoration = 'none';
-    titleOfApp.style.color = 'rgb(100, 100, 100)';
-    mainDiv.append(titleOfApp);
+    titleOfApp.style.color = 'rgb(170, 170, 170)';
+    return titleOfApp;
 }
 
 //----//

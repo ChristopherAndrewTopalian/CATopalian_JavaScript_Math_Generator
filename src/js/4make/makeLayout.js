@@ -2,6 +2,10 @@
 
 function makeLayout()
 {
+    ba(makeTitleOfApp());
+
+    //-//
+
     let layout = ce('div');
     layout.id = 'layout';
     layout.style.display = 'flex';

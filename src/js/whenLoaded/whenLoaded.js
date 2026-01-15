@@ -7,8 +7,6 @@ function whenLoaded()
     makeOperationButtons();
 
     makeMathGenerator();
-
-    makeTitleOfApp();
 }
 
 //----//
